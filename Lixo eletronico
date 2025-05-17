@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lixo Eletrônico</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+          margin: 0;
+          padding: 0;
+          background-color: #4682B4;  
+          font-family: Arial, sans-serif;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          min-height: 100vh;
+        }
+        header {
+            background: #4682B4;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            border-radius: 15px;
+            margin-bottom: 20px;
+        }
+        nav {
+            background: #333;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 20px;
+            width: 90%;
+            max-width: 900px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+            margin: 40px 0;
+        }
+        footer {
+            background: #2e8b57;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        figure {
+            text-align: center;
+            margin: 20px 0;
+        }
+        figure img {
+           width: 100px;
+           height: autopx;
+           max-width: 300px;
+           object-fit: cover;
+           border-radius: 10px;
+           display: block;
+           margin: 0 auto;
+        }
+        figcaption {
+           margin-top: 10px;
+           font-size: 0.95rem;
+           color: #333;
+           text-align: left;
+           padding: 0 10px;
+           line-height: 1.5;
+        }
+       .app-button {
+          display: inline-block;
+          background-color: #2e8b57;
+          color: white;
+          padding: 10px 20px;
+          border-radius: 10px;
+          text-decoration: none;
+          font-weight: bold;
+       }
+       @media (max-width: 600px) {
+            footer {
+                position: static;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+	   <h1>Lixo Eletrônico</h1>
+        </header> 
+
+        <div id="home" class="card">
+	     <h1>O que é o lixo eletrônico?</h1>
+	     <p>O e-lixo, também referido como lixo eletrônico, refere-se a qualquer equipamento eletrônico ou elétrico que foi descartado, seja por estar danificado, ultrapassado ou sem utilidade. Isso consiste em dispositivos como telefones móveis, computadores, televisores, carregadores, pilhas, baterias, fones de ouvido, impressoras, micro-ondas, entre outros.</p>
+	     <p>Ainda que esses itens não são mais úteis para o usuário, ainda possuem materiais importantes que podem ser reutilizados ou que requerem um descarte especial, pois podem prejudicar o meio ambiente e a saúde se descartados no lixo comum.</p>
+        </div>  
+
+        <div id="riscos">
+	     <h1>Os Riscos do Descarte Incorreto do Lixo Eletrônico</h1>
+             <p>Ao ser descartado no lixo comum ou em locais impróprios, o lixo eletrônico pode provocar graves prejuízos ao meio ambiente e à saúde das pessoas. Diversos desses dispositivos possuem componentes tóxicos, tais como chumbo, mercúrio, cádmio e arsênico.  Esses elementos podem vazar e contaminar o solo, a água e o ar.</p>
+             <p>Se esses materiais entrarem em contato com águas subterrâneas ou forem incinerados, podem causar contaminação da água e do ar, prejudicando animais, vegetais e até a saúde humana. O contato com esses poluentes está associado a complicações respiratórias, enfermidades de pele e prejuízos ao sistema nervoso.</p>
+	</div>
+
+        <div id="reciclagem">
+             <h1>A Importância da Reciclagem do Lixo Eletrônico</h1>
+             <p>A reciclagem de resíduos eletrônicos é uma das soluções mais eficazes para dar um destino adequado a aparelhos que já não utilizamos. Em vez de descartar, a reciclagem possibilita que elementos valiosos como cobre, alumínio, plástico e até ouro sejam reutilizados na criação de novos itens. Isso reduz o custo de produção e minimiza o uso de recursos naturais.</p>
+             <p>A reciclagem, além dos benefícios ambientais, também exerce influência social. Ela cria postos de trabalho em cooperativas, empresas especializadas e centros de seleção, promovendo a economia circular. Ao reciclar adequadamente, promovemos a inovação em tecnologias ecológicas e colaboramos para um futuro com menos desperdícios e maior consciência.</p>
+        </div>
+
+        <div id="locais">
+             <h1>Como e Onde Descartar Lixo Eletrônico em Goiânia</h1>
+             <p>Em Goiânia, existem diversas opções para o descarte correto de lixo eletrônico, facilitando o acesso da população a pontos de coleta e serviços especializados.</p>
+            
+             <h4>1. Central de Logística Reversa da COMURG</h4>  
+             <p>Localizada na Rua S-3 com Avenida T-14, no Setor Bela Vista, esta central funciona diariamente, das 7h às 22h, inclusive em feriados. Aceita itens como pilhas, baterias, televisores, rádios, celulares e cabos, sem necessidade de agendamento prévio.</p>
+	
+             <h4>2. Ecopontos da COMURG</h4>
+             <p>Para usar os Ecopontos, o habitante deve se dirigir ao local com os resíduos, fornecer aos funcionários o nome, endereço, placa do carro e o tipo de material que deseja descartar. É necessário efetuar o descarregamento pessoalmente nas baias ou caçambas existentes.</p>
+             <ul>
+                <li><strong>Guanabara:</strong> Rua GB-5 com Rua GB-6, Jardim Guanabara II</li>
+                <li><strong>Faiçalville:</strong> Av. Nadra Bufaiçal com Av. Madri APM, Setor Faiçalville</li>
+                <li><strong>Jardim São José:</strong> Rua Frei Nazareno Confaloni com Rua Irmã Maria Bernarda</li>
+                <li><strong>Campos Dourados:</strong> Rua São João Del Rei APM 07, Residencial Campos Dourados</li>
+                <li><strong>Parque Eldorado Oeste:</strong> Rua Elo 43, Parque Eldorado Oeste</li>
+             </ul>
+
+             <h4>3. Projeto Cata-Treco</h4>
+            <p>A Prefeitura de Goiânia disponibiliza o serviço "Cata-Treco" para a coleta de resíduos volumosos, incluindo eletroeletrônicos domésticos. O agendamento pode ser feito pelo WhatsApp (62) 3093-9223 ou pelo e-mail atendimento@consorciolimpagyn.com.br.</p>
+       </div>
+ </div>      
+
+</body>
+</html>
